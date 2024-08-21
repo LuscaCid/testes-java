@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.45.1">
+<file name="D:\Washington - Projetos\TestesJava\testeunit1\src\main\java\testeunit\App.java">
+</file>
+<file name="D:\Washington - Projetos\TestesJava\testeunit1\src\main\java\testeunit\Calculadora.java">
+<error line="3" column="1" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="4" column="3" severity="error" message="&apos;method def modifier&apos; tem um nível de indentação incorreto de 2. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="4" column="19" severity="error" message="&apos;(&apos; está precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"/>
+<error line="4" column="47" severity="error" message="&apos;{&apos; não está precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="6" column="5" severity="error" message="O filho de &apos;method def&apos; está no nível de indentação incorreto de 4. O nível esperado era o 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="7" column="3" severity="error" message="&apos;method def rcurly&apos; tem um nível de indentação incorreto de 2. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="9" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="10" column="3" severity="error" message="&apos;METHOD_DEF&apos; é precedido por mais do que 1 linha vazia." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="10" column="3" severity="error" message="&apos;method def modifier&apos; tem um nível de indentação incorreto de 2. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="10" column="24" severity="error" message="&apos;(&apos; está precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"/>
+<error line="10" column="52" severity="error" message="&apos;{&apos; não está precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="12" column="5" severity="error" message="O filho de &apos;method def&apos; está no nível de indentação incorreto de 4. O nível esperado era o 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="13" column="3" severity="error" message="&apos;method def rcurly&apos; tem um nível de indentação incorreto de 2. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="13" column="3" severity="error" message="&apos;}&apos; é sucedido por mais do que 1 linha vazia." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+</file>
+<file name="D:\Washington - Projetos\TestesJava\testeunit1\src\test\java\testeunit\AppTest.java">
+<error line="17" column="5" severity="error" message="&apos;}&apos; é sucedido por mais do que 1 linha vazia." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="19" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="D:\Washington - Projetos\TestesJava\testeunit1\src\test\java\testeunit\CalculadoraTest.java">
+<error line="5" column="1" severity="error" message="Ordem errada para a importação &apos;org.junit.jupiter.api.DisplayName&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="8" column="1" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="11" column="35" severity="error" message="&apos;{&apos; não está precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="12" column="13" severity="error" message="O filho de &apos;method def&apos; está no nível de indentação incorreto de 12. O nível esperado era o 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="13" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="13" column="16" severity="error" message="O filho de &apos;method def&apos; está no nível de indentação incorreto de 15. O nível esperado era o 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="13" column="50" severity="error" message="&apos;,&apos; não está seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+</file>
+</checkstyle>
