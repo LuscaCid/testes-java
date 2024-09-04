@@ -1,4 +1,4 @@
-#Sun Aug 18 18:45:29 BRT 2024
-configuration*?=1FE48715C7CC6A41E38B227DA9E3BADD8ED0025
-module-resource*?\:checkstyle/suppressions.xml=3B8248FE5DE84358C3BE362FC435D549D220DA97
-D\:\\Washington\ -\ Projetos\\TestesJava\\testeunit1\\src\\main\\java\\testeunit\\App.java=1724006057660
+#Wed Sep 04 22:43:31 UTC 2024
+configuration*?=849B8BF29CC4A8F0DA3E88F9F07094F4DE35D086
+/workspaces/testes-java/src/main/java/testeunit/App.java=1725489718160
+module-resource*?\:checkstyle/suppressions.xml=A1FD037C563F72342DA1FF4E4E1237D24047B042

@@ -2,6 +2,7 @@ package testeunit;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class NumeroTest{
@@ -14,6 +15,12 @@ public class NumeroTest{
          assertEquals(true, numero.impar());
     }
 
+    @Test
+    void validateFirstNumberGreaterThenSecond() {
+        Validador validate = new Validador();
+        boolean res = validate.validateFirstNumberGreaterThenSecond(4, 2);
+        assertEquals(true, res);
+    }
 
     @Test
     void NegativoNumero2Test(){
